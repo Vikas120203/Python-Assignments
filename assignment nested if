@@ -1,0 +1,17 @@
+bill = 10000
+payment =input("enter payment type: ")
+bank =input("enter your bank name: ")
+if payment == "credit":
+    if bank == "hdfc":
+        total = bill - (bill*10/100)
+        print("final amount is ",total)
+    elif bank == "sbi":
+        total = bill -(bill*5/100)
+        print("final amount is ", total)
+    else:
+        total = bill -(bill*10/100)
+        print("final amount is ", total)
+elif payment =="cash":
+    print("1%")
+else:
+    print("no discount") 

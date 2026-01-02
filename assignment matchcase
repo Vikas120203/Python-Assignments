@@ -1,0 +1,19 @@
+Month= int(input("enter Month num :"))
+
+match Month:
+    case 1:
+        print("Jan")
+    case 2:
+        print("feb")
+    case 3:
+        print("mar")
+    case 4:
+        print("apr")
+    case 5:
+        print("may")
+    case 6:
+        print("jun")
+    case 7:
+        print("jul")
+    case 8:
+        print("aug")
